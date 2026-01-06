@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', function() {
             const password = document.getElementById('password').value;
             
             // EmailJS service and template IDs
-            const serviceID = 'service_peugg6a';
-            const templateID = 'template_ig0hn9n';
+            const serviceID = 'YOUR-SERVICE-ID-HERE';
+            const templateID = 'YOUR-TEMPLATE-ID-HERE';
             
             // Create template parameters
             const templateParams = {
