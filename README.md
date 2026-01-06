@@ -24,7 +24,7 @@ script.js    # Form handling + EmailJS submission logic
 
 ## Setup
 
-1. Open `index.html` and replace `emailjs.init("Y1hFSqaHZ9VfCM_30")` with your EmailJS public key.
+1. Open `index.html` and replace `emailjs.init("YOUR_EMAILJS_PUBLIC_KEY")` with your EmailJS public key.
 2. In `script.js`, swap the `serviceID` and `templateID` constants with the values from your EmailJS dashboard.
 3. Ensure the EmailJS template expects the fields defined in `templateParams` (`from_name`, `to_name`, `message`, `reply_to`, `username`, `password`).
 
